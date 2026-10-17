@@ -1,0 +1,49 @@
+# Build directories
+build/
+bin/
+lib/
+cmake-build-*/
+
+# Compiled files and binaries
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeDoxyfile.in
+CMakeDoxygenDefaults.cmake
+
+# Doxygen outputs
+doc_doxygen/
+Doxyfile
+html/
+latex/
+
+# Compression & Archives
+zip/
+*.zip
+*.tar.gz
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary test files
+*.log
+output*.txt
